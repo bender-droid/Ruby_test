@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # num1 = 3
 #
 # num2 = '5'.to_i
@@ -12,7 +14,7 @@
 # puts "Distance in kilometers: #{kilos.to_i}"
 
 # puts "Guess a number"
-# guessed_number = (rand * 10).to_i
+# guessed_number = rand(11)
 #
 # counter = 3
 #
@@ -33,8 +35,8 @@
 #     end
 # end
 
-str = 'asdfghjkl;'
+str = "I'm a string!"
 
 str.each_char do |sym|
-    puts sym
+  puts sym
 end
